@@ -35,3 +35,14 @@ a h2 {
   color: white;
   margin: 18px 10px 20px 10px;
 }
+
+.top-navbar input {
+  display: block;
+  width: 96%;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 8px;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}

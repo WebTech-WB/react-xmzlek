@@ -11,9 +11,19 @@ export default function App() {
           <h2>Sloppydeals</h2>
         </a>
 
-        <a href="https://sloppydeals.com/" title="Logo Link" target="_self">
+        <a
+          class="cart_icon"
+          href="https://sloppydeals.com/carts"
+          title="Cart Link With Icon"
+          target="_self"
+        >
           <i class="fa fa-shopping-cart" />
         </a>
+
+        <input
+          id="seacrh-bar"
+          placeholder="Search thousands of different products"
+        />
       </div>
     </>
   );
