@@ -5,10 +5,16 @@ export default function App() {
   return (
     <>
       <div class="top-navbar">
-        <div id="ham-btn">☰</div>
+        <h2 id="ham-btn">☰</h2>
 
-        <a href="https://sloppydeals.com/" title="Logo Link" target="_self">
-          <h2>Sloppydeals</h2>
+        <a
+          id="logo-link"
+          href="https://sloppydeals.com/"
+          title="Logo Link"
+          target="_self"
+        >
+          <h4>Sloppydeals<sup>Lite</sup></h4>
+          <h6>Explore More</h6>
         </a>
 
         <a

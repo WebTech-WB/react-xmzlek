@@ -12,7 +12,7 @@ a {
 }
 
 #root .top-navbar {
-  background: /*linear-gradient(45deg, aqua, blue)*/ rgb(99, 3, 255);
+  background: /*linear-gradient(45deg, aqua, blue)*/ rgb(255 3 100);
   position: fixed;
   top: 0;
   left: 0;
@@ -24,16 +24,30 @@ a {
   font-size: 35px;
   display: inline-block;
   height: inherit;
-  padding: 5px 10px;
+  margin: 18px 10px 20px 10px;
+  /*padding: 5px 10px;*/
+  cursor: pointer;
 }
 
-a h2 {
+a#logo-link {
   display: inline-block;
-  font-size: 30px;
+}
+
+#logo-link sup {
+  font-size: 8px;
+}
+#logo-link h6 {
+  margin: 0;
+  color: yellow;
+}
+
+a h4 {
+  display: block;
+  /*font-size: 30px;*/
   text-transform: uppercase;
   font-weight: 300;
   color: white;
-  margin: 18px 10px 20px 10px;
+  margin: /*18px 10px 20px 10px*/ 0;
 }
 
 .top-navbar input {
