@@ -27,12 +27,26 @@ a {
   margin: 18px 10px 20px 10px;
   /*padding: 5px 10px;*/
   cursor: pointer;
+  background: rgb(255 3 100);
+  border: none;
+  color: white;
 }
 
 a#logo-link {
   display: inline-block;
 }
 
+.wishlist-link {
+  position: absolute;
+  top: 5vmin;
+  right: 12vmin;
+}
+
+.cart-link {
+  position: absolute;
+  top: 4.5vmin;
+  right: 5vmin;
+}
 #logo-link sup {
   font-size: 8px;
 }

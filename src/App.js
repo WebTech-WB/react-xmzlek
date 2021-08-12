@@ -1,6 +1,16 @@
 import React from 'react';
 import './style.css';
 
+function open_menu() {
+  var x = document.getElementById();
+  x.style.width = '90vw';
+  x.style.display = 'block';
+}
+
+function close() {
+  x.style.width = 0;
+}
+
 export default function App() {
   return (
     <>
@@ -13,17 +23,31 @@ export default function App() {
           title="Logo Link"
           target="_self"
         >
-          <h4>Sloppydeals<sup>Lite</sup></h4>
+          <h4>
+            Sloppydeals<sup>Lite</sup>
+          </h4>
           <h6>Explore More</h6>
         </a>
 
         <a
-          class="cart_icon"
+          class="wishlist-link"
+          href="https://sloppydeals.com/user/wishlists"
+          title="Wishlist Link With Icon"
+          target="_self"
+        >
+          <img src="https://img.icons8.com/material/30/ffffff/like--v1.png" />
+        </a>
+
+        <a
+          class="cart-link"
           href="https://sloppydeals.com/carts"
           title="Cart Link With Icon"
           target="_self"
         >
-          <i class="fa fa-shopping-cart" />
+          <img
+            id="cart-icon"
+            src="https://img.icons8.com/ios-filled/30/ffffff/shopping-cart.png"
+          />
         </a>
 
         <input
