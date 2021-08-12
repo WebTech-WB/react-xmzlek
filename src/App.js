@@ -32,7 +32,7 @@ export default function App() {
         <a
           class="wishlist-link"
           href="https://sloppydeals.com/user/wishlists"
-          title="Wishlist Link With Icon"
+          title="Wishlist"
           target="_self"
         >
           <img src="https://img.icons8.com/material/30/ffffff/like--v1.png" />
@@ -41,7 +41,7 @@ export default function App() {
         <a
           class="cart-link"
           href="https://sloppydeals.com/carts"
-          title="Cart Link With Icon"
+          title="Cart"
           target="_self"
         >
           <img
